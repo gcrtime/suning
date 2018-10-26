@@ -1,0 +1,1104 @@
+@charset "utf-8";
+@media screen and (min-width: 320px) {
+    .middletext {font-size: 8px;}
+}
+@media screen and (min-width: 360px) {
+    .middletext {font-size: 10px;}
+}
+ 
+@media screen and (min-width: 400px) {
+    .middletext {font-size: 12px;}
+}
+ 
+
+.total{
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+/*#header{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	background: url(../img/assets/Mask@3x.png);
+	height: 244px;
+}
+*/
+.forever_header{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	background: url(../img/assets/Mask@3x.png);
+	height: 244px;
+}
+
+.change_header{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	background: url(../img/assets/Mask@3x.png);
+	height: 177px;
+}
+
+#headerby{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	background: url(../img/assets/Mask@3x.png);
+	height: 113.5px;
+}
+
+#time{
+	
+	height:13px;
+}
+#header1{
+	height: 20px;
+	
+}
+.title{
+	font-family: PingFangSC-Regular;
+    font-size: 17px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 17px;
+}
+
+ 
+
+#member{
+	height: 50px;
+
+	margin-left: 15px;
+	margin-right: 15px;
+	position: relative;
+}
+
+
+.member_img{
+	width: 38px;
+	height: 38px;
+	background-image: url(../img/assets/Leo.png);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+
+.member_img1{
+	width: 14px;
+	height: 15.5px;
+	position: absolute;
+	left: 113px;
+	top: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.name{
+	height: 22px;
+	width: 64px;
+	font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    top: 0;
+	bottom: 0;
+	margin: auto;
+}
+ 
+ 
+
+
+.member_right{
+	width: 72px;
+	height: 16px;
+	color: #E8C587;
+	/*padding-right: 27px;*/
+	font-size:12px ;
+	font-family: PingFangSC-Regular;
+	position: absolute;
+	right: 17px;
+	top: 10px;
+	text-align: center;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	
+}
+
+.member_symbol{
+
+   width: 5.7px;
+   height: 5.7px;
+    display: inline;
+    float: right;
+    margin-top: 22.5px;
+ 
+}
+
+
+
+/*#leaguer{
+	height:157px;
+	margin: 16px;
+	border: 1px soild white;
+	margin-left: 15px;
+	margin-right: 15px;
+	background-image: linear-gradient(47deg, #E1BD80 0%, #F0D7A5 100%);
+    border-radius: 6px 6px 0 0;
+    position: relative;
+}*/
+
+/*#leaguer{
+	height:157px ;
+	margin-left: 15px;
+	margin-right: 15px;
+	background-image: linear-gradient(47deg, #E1BD80 0%, #F0D7A5 100%);
+	
+}
+*/
+
+#leaguer1{
+	height:63.5px;
+	margin-left: 15px;
+	margin-right: 15px;
+	background-image: linear-gradient(47deg, #E1BD80 0%, #F0D7A5 100%);
+	position: relative;
+	border-radius: 6px 6px 0 0;
+}
+
+
+ .leaguer1_img1{
+ 	width: 24.8px;
+ 	height: 28.1px;
+	position: absolute;
+	left: 10px;
+	top: 18px;	
+}
+
+
+
+ .leaguer1_text1{
+ 	height: 13px;
+ 	width: 84px;
+	font-family: PingFangSC-Medium;
+	font-size: 14px;
+	height:13px ;
+	line-height: 13px;
+	color: #75511F;
+	position: absolute;
+	top: 17px;
+	left: 53px;
+}
+
+ .leaguer1_text2{
+ 	width: 117px;
+ 	height: 13px;
+	opacity: 0.9;
+    font-family: PingFangSC-Regular;
+    font-size: 11px;
+    color: #75511F;
+    line-height: 13px;
+    position: absolute;
+    left: 53px;
+    top: 36px;
+}
+
+.leaguer2_text1{
+	width:70px;
+	height: 13px;
+	font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #75511F;
+    line-height: 13px;
+    position:absolute;
+    top: 17px;
+    left: 53px;
+}
+
+ .leaguer1_lable{
+	height: 24px;
+	width: 64px;
+	border: 1px solid #895F25;
+    border-radius: 12px;
+    opacity: 0.5;
+    position: absolute;
+    right: 24px;
+    top: 0;
+	bottom: 0;
+	margin: auto;
+	
+  
+}
+
+ .leaguer1_lable_text{
+	font-family: PingFangSC-Medium;
+    font-size: 12px;
+    color: #75511F;
+    text-align: center;
+    top: 0;
+	bottom: 0;
+	margin: 0 auto;
+	font-weight: 900;
+    display: block;
+	margin-top: 3px;
+	
+}
+
+.line1{
+	height: 1px;
+	opacity: 0.3;
+	background: white;
+	position: absolute;
+	top: 63.5px;
+	left: 15.5px;
+	right: 14.5px;
+}
+.line2{
+	height: 1px;
+	opacity: 0.3;
+	background: white;
+	position: absolute;
+	left: 15.5px;
+	right: 14.5px;
+	top:67px;
+}
+
+
+#leaguer2{
+	height:67px;
+	margin-left: 15px;
+	margin-right: 15px;
+	background-image: linear-gradient(47deg, #E1BD80 0%, #F0D7A5 100%);
+	position: relative;
+	
+}
+
+ .leaguer2_img1{
+	position: absolute;
+	left: 10px;
+	top: 18px;
+	
+}
+
+/*#leaguer .leaguer2_text{
+	line-height: 13px;
+	margin-left: 10px;
+	float: left;
+	display: inline;
+	position: absolute;
+	left:10px;
+	top: -10px;
+}*/
+
+
+.leaguer2_text2{
+	width: 117px;
+	height: 13px;
+	opacity: 0.9;
+    font-family: PingFangSC-Regular;
+    font-size: 11px;
+    color: #75511F;
+    line-height: 13px;
+    position: absolute;
+    left: 53px;
+    top: 36px;
+}
+
+ .leaguer2_lable{
+	height: 24px;
+	width: 64px;
+	border: 1px solid #895F25;
+    border-radius: 12px;
+    opacity: 0.5;
+    position: absolute;
+    right: 24px;
+    top: 0;
+	bottom: 0;
+	margin: auto;
+    
+  
+}
+
+ .leaguer2_lable_text{
+	font-family: PingFangSC-Medium;
+    font-size: 12px;
+    color: #75511F;
+    text-align: center;
+   
+    font-weight: 900;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+#leaguer3{
+	height:30.5px;
+	margin-left: 15px;
+	margin-right: 15px;
+	background-image: linear-gradient(47deg, #E1BD80 0%, #F0D7A5 100%);
+	position: relative;
+	
+	
+}
+
+ .leaguer3_text{
+	font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #75511F;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -37px;
+    margin-top: -7px;
+	
+    
+}
+
+
+
+
+
+
+/*描述会员福利社、卡密兑换、会员帮助*/
+#middle{
+	height: 108px;
+	border: 1px soild white;
+	position: relative;
+	display: flex;
+	
+}
+
+/*会员福利社*/
+ .welfare{
+    flex: auto;
+	position:relative;
+	
+	
+}
+
+
+
+ .welfare_img{
+	width: 30px;
+	height: 30px;
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    margin-left: -15px;
+    
+}
+
+ .welfare_text_welfare{
+	font-family: PingFangSC-Medium;
+    font-size: 13px;
+    color: #202020;
+    width: 100%;
+    height: 18px;
+    text-align: center;
+    position: absolute;
+    top:57px;
+    /*left:22px;*/
+}
+
+ .welfare_text_activity{
+	font-family: PingFangSC-Regular;
+    font-size: 11px;
+    color: #909090;
+    text-align: center;
+    position:absolute;
+    top:76px;
+    /*left: 22px;*/
+    width: 100%;
+}
+
+/*卡密兑换*/
+ .exchange{
+	flex: auto;
+	position:relative;
+}
+
+ .exchange_image{
+	width: 28px;
+	height: 25px;
+	background-image: linear-gradient(-141deg, #EAC98B 0%, #DAAF6D 100%);
+    border-radius: 5px;
+    position: absolute;
+    top: 22px;
+     left: 50%;
+    margin-left: -14px;
+}
+
+ .exchange_text_exchange{
+	width: 100%;
+	height:18px;
+	font-family: PingFangSC-Medium;
+    font-size: 13px;
+    color: #202020; 
+    text-align: center; 
+    position:absolute;
+    top:57px;
+  /*  left:31px;*/
+}
+
+ .exchange_text_member{
+	 width: 100%;
+	height:16px;
+	font-family: PingFangSC-Regular;
+    font-size: 11px;
+    color: #909090;
+    text-align: center;
+    position:absolute;
+    top:76px;
+  /*  left:15px;*/
+}
+
+/*会员帮助*/
+#middle .help{
+	flex:auto;
+	position: relative;
+}
+
+ .help_image{
+	width:25px;
+	height:22.5px;
+	background: #DEB574;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px 6px 6px 0 1px;
+    position: absolute;
+    top:22px;
+     left: 50%;
+    margin-left: -12px;
+   
+}
+
+ .help_text_help{
+	width: 100%;
+	height:18px;
+	font-family: PingFangSC-Medium;
+    font-size: 13px;
+    color: #202020;
+    position:absolute;
+    top:57px;
+    text-align: center;
+    /*left:31px;*/
+	
+}
+
+ .help_text_easy{
+	 width: 100%;
+	height:16px;
+	font-family: PingFangSC-Regular;
+    font-size: 11px;
+    color: #909090;
+    text-align: center;
+    position: absolute;
+    top:76px;
+	/*left:17px;*/
+}
+
+.line_two{
+	background: #F8F8F8;
+	height:10px;
+}
+
+
+/*会员活动区域*/
+.activity{
+	position: relative;
+	
+}
+/*会员活动区域文字*/
+.activity_text{
+	height: 55px;
+	/*height: 55px;
+	font-family: PingFangSC-Medium;
+    font-size: 20px;
+    color: #202020;
+    letter-spacing: 0;
+    
+    line-height: 24px;
+    font-weight: 800;
+    margin-left:21px*/
+}
+
+.text{
+	display: block;
+	font-family: PingFangSC-Medium;
+    font-size: 20px;
+    color: #202020;
+    font-weight: 800;
+    margin-left:15px;
+    position: absolute;
+    top: 14px;
+    
+}
+
+
+
+
+/*会员活动区域图片*/
+/*.activity_img{
+	
+	height: 88px;
+	overflow: hidden;
+	display: -webkit-box;
+}*/
+/*.box{
+	width:344px;
+	height: 88px;
+	overflow: hidden;
+	display: -webkit-box;
+}*/
+/*会员活动切图*/
+
+.activity_img1{
+	/*height: 88px;
+	width: 167px;*/
+	/*float: left;*/
+	/*background-image: url(../img/assets/qietu1.png);*/
+	
+	/*margin-left: 15px;
+	border-radius: 4px;*/
+	background-color: black;
+}
+
+
+.activity_img2{
+	
+	/*margin-left: 9px;*/
+	background-color:lightgreen ;
+}
+
+.activity_img3{
+	/*height: 88px;
+	width: 167px;*/
+	/*float: right;*/
+	/*background-image: url(../img/assets/qietu3.png);*/
+	
+	/*margin-left: 9px ;*/
+	background-color: lime;
+	
+}
+img{max-width:100%;height:100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*会员活动区域获得50元代金卷的文字*/
+.activity_text2{
+	
+	height: 56px;
+	position: relative;
+	margin-left: 21px;
+	
+}
+.activity_text2_img{
+	position: absolute;
+	top: 23px;
+}
+
+.activity_text2_text{
+	width:260px;
+	height:17px;
+	background-color: white;
+    position: absolute;
+    top:23px;
+    left:26px;
+    text-align: center;
+}
+
+.middletext{
+	font-family: PingFangSC-Regular;
+	/*font-size: 12px;*/
+	color: #606060;
+	 position: absolute;
+    top:23px;
+    left:26px;
+}
+
+
+/*@media screen and (min-width: 320px) {
+     {font-size: 14px;}
+}*/
+
+.activity_text2_symbol{
+	width:8.5px;
+	height: 8.5px;
+	opacity: 0.4;
+    
+    position: absolute;
+    top:23px;
+    right: 15.7px;
+}
+
+
+
+/*会员专享比赛*/
+.game{
+	width:100%;
+	height: 201px;
+	
+}
+
+.game_vip{
+	height: 63px;
+	width:100%;
+	position: relative;
+}
+
+.game_vip_game{
+	width: 150px;
+	height: 24px;
+	font-family: PingFangSC-Medium;
+    font-size: 20px;
+    color: #202020;
+    letter-spacing: 0;
+    text-align: justify;
+    line-height: 24px;
+    font-weight: 800;
+    position: absolute;
+    top:16px;
+    left: 21px;
+}
+
+.game_more{
+	width:52px;
+	height: 18px;
+	font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #606060;
+    text-align: right;
+    position: absolute;
+    top: 19px;
+    right: 27px;
+}
+
+.game_symbol{
+	width:8.5px;
+	height: 8.5px;
+    position:absolute;
+    top:24px;
+    right: 15px;
+    opacity: 0.5;
+    
+ 
+}
+
+.game_first{
+	height: 69px;
+	
+	
+	display: flex;
+	flex: auto;
+	/*flex-wrap: wrap;*/
+}
+
+/*.test{
+	height:140px;
+	width:100%
+}*/
+
+
+.game_turn{
+	flex: auto;
+	
+	
+	position: relative;
+}
+
+.game_turn_member{
+	width:16px;
+	height:11px;
+	background-color: #E8C587;
+	border-radius: 2px;
+	font-family: PingFangSC-Medium;
+    font-size: 8px;
+    color: #A25309;
+    position: absolute;
+   
+    left: 21px;
+}
+
+.game_turn_time{
+	width:41px;
+	height: 16px;
+	font-family: ArialMT;
+    font-size: 16px;
+    color: #202020;
+    letter-spacing: 0;
+    line-height: 16px;
+    position:absolute;
+    bottom: 34px;
+    left: 5px;
+}
+
+.game_turn_text{
+	width:60px;
+	height:10px;
+	font-family: PingFangSC-Regular;
+    font-size: 11px;
+    color: #909090;
+    letter-spacing: 0;
+    line-height: 10px;
+    position:absolute;
+    bottom:18px;
+    left: 5px;
+}
+
+.game_team{
+	flex: auto;
+	
+	position:relative;
+	
+}
+
+.game_team1{
+	height: 34px;
+	position: relative;
+}
+
+
+.picture_size{
+	width:15.5px;
+	height: 20px;
+}
+
+.suning{
+	width:53px;
+	height: 14px;
+	font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #202020;
+    letter-spacing: 0;
+    line-height: 14px;
+    position: absolute;
+	left: 26px;
+	top:3px;
+}
+
+.game_team2{
+	height: 34px;
+	position: relative;
+}
+
+.game_team2_img{
+	width:15.5px;
+	height: 20px;
+	background-image:url(../img/assets/logo_list_76.png) ;
+	
+}
+.shenhua{
+	width:53px;
+	height: 14px;
+	font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #202020;
+    letter-spacing: 0;
+    line-height: 14px;
+    position: absolute;
+	left: 26px;
+	top:3px;
+}
+
+
+.game_score{
+	flex: auto;
+	
+	
+	position: relative;
+}
+
+
+
+.suningscore{
+	height: 14px;
+	width:6px;
+	font-family: DINAlternate-Bold;
+    font-size: 13px;
+    color: #606060;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 14px;
+    position: absolute;
+    left: 30.75px;
+}
+
+.shenhuascore{
+	height: 14px;
+	width:6px;
+	font-family: DINAlternate-Bold;
+    font-size: 13px;
+    color: #606060;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 14px;
+    position: absolute;
+    top: 35px;
+    left:30.75px ;
+}
+
+.hengdascore{
+	height: 14px;
+	width:6px;
+	font-family: DINAlternate-Bold;
+    font-size: 13px;
+    color: #606060;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 14px;
+    position: absolute;
+    left: 30.75px;
+}
+
+.lunengscore{
+	height: 14px;
+	width:6px;
+	font-family: DINAlternate-Bold;
+    font-size: 13px;
+    color: #606060;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 14px;
+    position: absolute;
+    top: 35px;
+    left:30.75px ;
+}
+
+.game_video{
+	flex: auto;
+	
+	position: relative;
+	
+}
+
+.game_video_img{
+	background: #D1D1D1;
+    border-radius: 2px;
+    width:14px;
+    height: 11px;
+    background-color: #6495ED;
+    position: absolute;
+    right:60px;
+    bottom: 40px;
+}
+
+.video{
+	width:48px;
+	height: 12px;
+	font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #909090;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 12px;
+    position: absolute;
+    right:12px;
+    bottom: 40px;
+}
+
+
+
+.profit{
+	width:100%;
+	height: 170px;
+	
+}
+
+.profit_member{
+	height: 50px;
+	position: relative;
+}
+
+.memberprofit{
+	width:70px;
+	height: 24px;
+	font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #202020;
+    letter-spacing: 0;
+    text-align: justify;
+    line-height: 24px;
+    font-weight: 800;
+    position: absolute;
+    left: 21px;
+    top: 13px;
+}
+
+.moreprofit{
+	width:52px;
+	height: 18px;
+	font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #606060;
+    text-align: right;
+    position: absolute;
+    right: 25px;
+    top: 13px;
+}
+
+.moreprofit_label{
+	
+	opacity: 0.5;
+    
+    
+    
+    width:8.5px;
+	height: 8.5px;
+    position:absolute;
+    top:18px;
+    right: 15px;
+    
+}
+
+
+
+.enjoy{
+	
+	height: 120px;
+	background: #FAFAFA;
+    border: 0 solid #F2F2F2;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    position: relative;
+}
+
+
+.enjoygame{
+	width: 70px;
+	height: 22px;
+	font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #202020;
+    letter-spacing: 0;
+    font-weight: 800;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.close{
+	width: 156px;
+	height: 17px;
+	font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #909090;
+    position: absolute;
+    left: 20px;
+    top: 44px;
+    
+}
+
+.findprofit{
+	width: 70px;
+	height: 24px;
+
+	background-image: linear-gradient(-141deg, #EAC98B 0%, #DAAF6D 100%);
+    box-shadow: 0 2px 7px 0 rgba(225,159,59,0.40); 
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    left: 20px;
+    bottom: 24px;
+}
+
+.findprofit_text{
+	text-align: center;
+	font-family: PingFangSC-Medium;
+    font-size: 12px;
+    color: #75511F;
+    color: white;
+    top: 0;
+	bottom: 0;
+	margin: 0 auto;
+	font-weight: 900;
+    display: block;
+	margin-top: 3px;
+}
+
+.enjoy_img{
+	height: 59px;
+	width:55.9px;
+	background-image: radial-gradient(0% 100%, #FBD17B 25%, #E5A631 24%, #FED789 65%);
+	position: absolute;
+	right: 34.1px;
+	bottom: 34px;
+	background-image: url(../img/assets/enjoy.png);
+}
+
+
+.swiper-container{
+	
+	height: 120px;
+}
+
+
+
+.swiper1{
+
+	height: 120px;
+	background: #FAFAFA;
+    border: 0 solid #F2F2F2;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    position: relative;
+	
+}
+
+.swiper2{
+	
+	height: 120px;
+	background: #FAFAFA;
+    border: 0 solid #F2F2F2;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    position: relative;
+    background: lightblue;
+}
+.swiper3{
+	
+	height: 120px;
+	background: #FAFAFA;
+    border: 0 solid #F2F2F2;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    position: relative;
+    background: lightgoldenrodyellow;
+}
+.swiper4{
+	
+	height: 120px;
+	background: #FAFAFA;
+    border: 0 solid #F2F2F2;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    position: relative;
+    background: lightpink;
+}
+
+

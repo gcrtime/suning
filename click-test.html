@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<link rel="stylesheet" href="css/swiper-4.3.3.min..css" />
+		<style>
+			* {margin: 0;padding: 0;}
+         .swiper-slide{text-align:center; height:300px;line-height:300px;}
+  .red-slide{background:red;}
+  .orange-slide{background:orange;}
+  .blue-slide{background:blue;}
+  .green-slide{background:green;}
+			}
+		</style>
+		
+	</head>
+	<body>
+		
+		
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+		测试跳转界面
+		
+		
+		
+		
+		<div class="swiper-container">
+            <div class="swiper-wrapper">
+                 <div class="swiper-slide green-slide"></div>
+                 <div class="swiper-slide red-slide"></div>
+                 <div class="swiper-slide orange-slide"></div>
+                 <div class="swiper-slide blue-slide"></div>
+            </div>
+   <!-- 如果需要分页器 -->
+  <div class="swiper-pagination"></div>
+   
+   
+   
+   
+</div>
+
+
+
+
+
+
+
+
+	</body>
+	<script>
+	var mySwiper = new Swiper('.swiper-container',{
+     //切换效果
+      effect: 'fade',//'flip','coverflow','cube','fade',  默认横向滑动
+      loop:true,  //是否循环
+      autoplay: 30,
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+      type:'bullets',
+      bulletElement:'span',
+    },
+  });
+</script>
+</html>
+
+
